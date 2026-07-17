@@ -21,4 +21,4 @@ __pycache__/
 # Terraform (comes later)
 .terraform/
 *.tfstate
-*.tfstate.backup
+*.tfstate.backup.terraform/
