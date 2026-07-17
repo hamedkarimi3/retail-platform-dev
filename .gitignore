@@ -16,6 +16,7 @@ __pycache__/
 # Data files we don't want bloating the repo
 *.csv
 *.parquet
+*.duckdb
 
 # Terraform (comes later)
 .terraform/
