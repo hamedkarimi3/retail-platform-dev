@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment/secrets — never commit these
+.env
+*.key
+*.json
+!package.json
+
+# OS/editor junk
+.DS_Store
+.vscode/
+
+# Data files we don't want bloating the repo
+*.csv
+*.parquet
+
+# Terraform (comes later)
+.terraform/
+*.tfstate
+*.tfstate.backup
